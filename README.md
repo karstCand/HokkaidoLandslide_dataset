@@ -1,4 +1,6 @@
-# HokkaidoLandslide_dataset (raw data)
+# HokkaidoLandslide_dataset 
+
+### Raw data
 Data used for this work were derived from data in open access : 
 - Raw landslide inventory at northern Atsuma (Iburi Subprefecture in southern Hokkaido, Japan) www.gsi.go.jp ;
 - DEM 10m resolution https://fgd.gsi.go.jp/download/menu.php ;
