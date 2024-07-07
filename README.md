@@ -1,15 +1,31 @@
-# HokkaidoLandslide_dataset 
+# HokkaidoLandslide_dataset
+Candide Lissak, Thomas Corpetti
+##
+This page contains the dataset used in our paper *Fusion network and open access dataset for landslide detection: a comparative analysis on bijie and hokkaido datasets* presented in [IGARSS 2024](https://www.2024.ieeeigarss.org/). If you use this dataset, please cite the following paper :
+
+[1] Lissak, C. and Corpetti, T. (2024, July). Fusion network and open access dataset for landslide detection: a comparative analysis on bijie and hokkaido datasets.  In _IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium_ (pp. 5231-5234). IEEE [pdf]().
+##
+### About data and study site
+Hokkaido is located in Japan and the landslide dataset has been created from high spatial resolution RGB images (Sentinel-2) and [10m elevation models](https://fgd.gsi.go.jp/download/menu.php), triggered by a  $M_w 6.6$ [earthquake in 2018](https://link.springer.com/article/10.1007/s10346-019-01187-7). The small dataset (70 images) encompasses more than 7 800 landslides  within the Hokkaido region (Japan) mixing shallow and deep landslides with various sizes.
+##
+
+### Images used for training / testing our network
+- The dataset used in our paper [1] is composed of 70 snippets (40 training/ 15 validation/15 test) image patches. We have used this network for fine tuning a network trained on [Bijie Dataset](http://gpcv.whu.edu.cn/data/Bijie_pages.html). As this network is trained on RGB images, we have used the following SENTINEL-2 bands : B02, B03, B04
+- All snippets can be downloaded here :
+	- png (8-bits from 0 to 255)
+	- geotif
+
+##
 
 ### Raw data
-Data used for this work were derived from data in open access : 
+Below are the geotiff complete scenes:
+- [DEM]()
+- [SENTINEL-2 (all bands)]()
+
+We created these snippets from openaccess data:
 - Raw landslide inventory at northern Atsuma (Iburi Subprefecture in southern Hokkaido, Japan) www.gsi.go.jp ;
 - Digital elevation model (DEM) of 10m resolution https://fgd.gsi.go.jp/download/menu.php ;
-- Multispetral data with Sentinel 2 images https://dataspace.copernicus.eu/ 
-
-### GeoTif Images
-The dataset used for the network is composed of xxxxx splits (training/validation/test) image patches :
-- Multispetral data : Sentinel 2  - B02, B03, B04
-
-
+- Multispetral data with Sentinel 2 images https://dataspace.copernicus.eu/
+##
 ### Categories
 Landslide, remote sensing, machine learning, deep learning, satellite image
