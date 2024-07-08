@@ -3,7 +3,7 @@ Candide Lissak, Thomas Corpetti
 ##
 This page contains the dataset used in our paper *Fusion network and open access dataset for landslide detection: a comparative analysis on bijie and hokkaido datasets* presented in [IGARSS 2024](https://www.2024.ieeeigarss.org/). If you use this dataset, please cite the following paper :
 
-[1] Lissak, C. and Corpetti, T. (2024, July). Fusion network and open access dataset for landslide detection: a comparative analysis on bijie and hokkaido datasets.  In _IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium_ (pp. 5231-5234). IEEE [pdf]().
+[1] Lissak, C. and Corpetti, T. (2024, July). Fusion network and open access dataset for landslide detection: a comparative analysis on bijie and hokkaido datasets.  In _IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium_ (pp. 5231-5234). IEEE [pdf](https://drive.google.com/file/d/1DoQ-xDvX0h-5yzjXHQ3JSopgCLt2GBvw/view?usp=sharing).
 ##
 ### About data and study site
 Hokkaido is located in Japan and the landslide dataset has been created from high spatial resolution RGB images (Sentinel-2) and [10m elevation models](https://fgd.gsi.go.jp/download/menu.php), triggered by a  $M_w 6.6$ [earthquake in 2018](https://link.springer.com/article/10.1007/s10346-019-01187-7). The small dataset (70 images) encompasses more than 7 800 landslides  within the Hokkaido region (Japan) mixing shallow and deep landslides with various sizes.
