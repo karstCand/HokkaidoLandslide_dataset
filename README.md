@@ -10,17 +10,18 @@ Hokkaido is located in Japan and the landslide dataset has been created from hig
 ##
 
 ### Images used for training / testing our network
-- The dataset used in our paper [1] is composed of 70 snippets (40 training/ 15 validation/15 test) image patches. We have used this network for fine tuning a network trained on [Bijie Dataset](http://gpcv.whu.edu.cn/data/Bijie_pages.html). As this network is trained on RGB images, we have used the following SENTINEL-2 bands : B02, B03, B04
+- The dataset used in our paper [1] is composed of 68 snippets (39 training/ 14 validation/15 test) image patches. We have used this network for fine tuning a network trained on [Bijie Dataset](http://gpcv.whu.edu.cn/data/Bijie_pages.html). As this network is trained on RGB images, we have used the following SENTINEL-2 bands : B02, B03, B04
 - All snippets can be downloaded here :
-	- png (8-bits from 0 to 255)
-	- geotif
+	- [png](https://drive.google.com/file/d/1eRh6XMw7R8V3AkOPIHmsAvu5kZ_aIoDX/view?usp=sharing) (8-bits from 0 to 255)
+	- [geotif](https://drive.google.com/file/d/1_fq7bNhYA1S09q5oihIdcHfPfBRtV-8i/view?usp=sharing)
 
 ##
 
 ### Raw data
 Below are the geotiff complete scenes:
-- [DEM]()
-- [SENTINEL-2 (all bands)]()
+- [DEM](https://drive.google.com/file/d/1TcqJFyFWyfCtUHjV1fXpf5voxV0Cy4dF/view?usp=sharing)
+- [SENTINEL-2 (all bands)](https://drive.google.com/file/d/1oeVaJI3igoCuvKj6kpsnKUzZKQgL0i49/view?usp=sharing)
+- [Masks of landslides](https://drive.google.com/file/d/1w45lS41lcuCTCEEMTjTqn1_TzWlNMI9f/view?usp=sharing)
 
 We created these snippets from openaccess data:
 - Raw landslide inventory at northern Atsuma (Iburi Subprefecture in southern Hokkaido, Japan) www.gsi.go.jp ;
